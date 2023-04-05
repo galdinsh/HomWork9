@@ -8,8 +8,8 @@
         return (f(a - 1, f(a, b - 1)));
 }
 Console.Clear();
-Console.Write("Введите начальное число: ");
+Console.Write("Введите первое число: ");
 int m = int.Parse(Console.ReadLine()!);
-Console.Write("Введите конечное число: ");
+Console.Write("Введите второе число: ");
 int n = int.Parse(Console.ReadLine()!);
 Console.WriteLine(f(m, n));
